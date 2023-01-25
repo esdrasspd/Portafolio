@@ -6,6 +6,7 @@
         public String Descripcion { get; set; }
         public String ImagenURL { get; set; }
         public String Link { get; set; }
+        public Boolean Web { get; set; }
 
     }
 }

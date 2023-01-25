@@ -2,22 +2,26 @@
 
     @if (Model is not null)
 {
-
+    
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             @foreach (var proyecto in Model)
             {
                 <div class="col">
                     <div class="card h-100">
-                        <img src="@proyecto.ImagenURL" class="card-img-top" alt="imagen proyecto" />
+                        <img src="@proyecto.ImagenURL" class="card-img-top" alt="imagen proyecto" height="250"/>
                         <div class="card-body">
                             <h5 class="card-title">@proyecto.Titulo</h5>
                             <p class="card-text">@proyecto.Descripcion </p>
                         </div>
-                        <div class="card-footer">
+                        @if(proyecto.Web == true)
+                        {
+                            <div class="card-footer">
                             <a class="btn btn-primary" href="@proyecto.Link" target="_blank"
                        rel="noopener noreferrer">Visitar</a>
                         </div>
+                        }
+                        
                     </div>
                 </div>
             }

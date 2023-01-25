@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "238+V3LTAJBkHGAcrfS2wR15bboAWzmWD3os7DjPMdl2iJ05RCwBt6w46QOcJXlKlI6EDc0NXZ06Lz9XGWrNAA==",
+  "dgSpecHash": "wWWD2sGQ/FMEnzyb582qNTgkidZvn+7laRxa93kLfpfUbWBRA4Gh39M7gMHMkfZNjNSGmTMrqB5xQxDeO4Sdlw==",
   "success": true,
   "projectFilePath": "C:\\Users\\serho\\Desktop\\Proyectos ASP.NET Core\\Portafolio\\Portafolio\\Portafolio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\serho\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\serho\\.nuget\\packages\\sendgrid\\9.28.1\\sendgrid.9.28.1.nupkg.sha512",
-    "C:\\Users\\serho\\.nuget\\packages\\starkbank-ecdsa\\1.3.3\\starkbank-ecdsa.1.3.3.nupkg.sha512"
+    "C:\\Users\\serho\\.nuget\\packages\\starkbank-ecdsa\\1.3.3\\starkbank-ecdsa.1.3.3.nupkg.sha512",
+    "C:\\Users\\serho\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\serho\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\serho\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\serho\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512"
   ],
   "logs": []
 }

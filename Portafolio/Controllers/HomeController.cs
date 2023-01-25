@@ -7,16 +7,9 @@ namespace Portafolio.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
         private readonly IRepositorioProyectos repositorioProyectos;
         private readonly IServicioEmail servicioEmail;
-        private readonly IConfiguration configuration;
-        private readonly ServicioDelimitado servicioDelimitado;
-        private readonly ServicioUnico servicioUnico;
-        private readonly ServicioTransitorio servicioTransitorio;
-        private readonly ServicioDelimitado servicioDelimitado2;
-        private readonly ServicioUnico servicioUnico2;
-        private readonly ServicioTransitorio servicioTransitorio2;
+        
 
         public HomeController(IRepositorioProyectos repositorioProyectos,
             IServicioEmail servicioEmail
@@ -28,7 +21,7 @@ namespace Portafolio.Controllers
 
         public IActionResult Index()
         {
-            var proyectos = repositorioProyectos.ObtenerProyectos().Take(3).ToList(); //obtener solo 3 proyectos
+            var proyectos = repositorioProyectos.ObtenerProyectos().ToList(); //obtener solo 3 proyectos
             var modelo = new HomeIndexViewModel()
             {
                 Proyectos = proyectos,
@@ -39,6 +32,7 @@ namespace Portafolio.Controllers
         public IActionResult Proyectos()
         {
             var proyectos = repositorioProyectos.ObtenerProyectos();
+            
             return View(proyectos);
         }
 

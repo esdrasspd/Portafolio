@@ -22,15 +22,18 @@ namespace Portafolio.Services
             var email = configuration.GetValue<string>("SENDGRID_FROM"); //configurando el email
             var nombre = configuration.GetValue<string>("SENDGRID_NOMBRE"); //configurando el nombre
             
-            var cliente = new SendGridClient(apiKey);
+            Console.WriteLine(apiKey);
 
+
+            var cliente = new SendGridClient(apiKey);
             var from = new EmailAddress(email, nombre); //de quien viene el email
             var subject = $"El cliente {contacto.Email} quiere contactarte"; //mensaje que llega a nuestro email
             var to = new EmailAddress(email, nombre); //para quien va (nosotros mismos)
             var mensajeTextoPlano = contacto.Mensaje; //mensaje que envia el cliente
-            var contenidoHtml = @$"De: {contacto.Nombre} -
+            var contenidoHtml = @$"De: {contacto.Nombre} - 
 Email: {contacto.Email}
 Mensaje: {contacto.Mensaje}"; //string de varias lineas
+            Console.WriteLine(contenidoHtml);
             var singleEmail = MailHelper.CreateSingleEmail(from, to, subject, mensajeTextoPlano, contenidoHtml); //configurando el email
             var respuesta = await cliente.SendEmailAsync(singleEmail); //enviando el email
         }

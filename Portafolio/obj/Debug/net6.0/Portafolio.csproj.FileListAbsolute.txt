@@ -5,7 +5,6 @@ C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\bin\Debug\ne
 C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\bin\Debug\net6.0\Portafolio.deps.json
 C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\bin\Debug\net6.0\Portafolio.runtimeconfig.json
 C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\bin\Debug\net6.0\Portafolio.dll
-C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\bin\Debug\net6.0\ref\Portafolio.dll
 C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\bin\Debug\net6.0\Portafolio.pdb
 C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\obj\Debug\net6.0\Portafolio.csproj.AssemblyReference.cache
 C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\obj\Debug\net6.0\Portafolio.GeneratedMSBuildEditorConfig.editorconfig
@@ -28,3 +27,9 @@ C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\bin\Debug\ne
 C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\bin\Debug\net6.0\SendGrid.dll
 C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\bin\Debug\net6.0\StarkbankEcdsa.dll
 C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\obj\Debug\net6.0\Portafolio.csproj.CopyComplete
+C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\obj\Debug\net6.0\staticwebassets\msbuild.Portafolio.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\obj\Debug\net6.0\staticwebassets\msbuild.build.Portafolio.props
+C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Portafolio.props
+C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Portafolio.props
+C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\serho\Desktop\Proyectos ASP.NET Core\Portafolio\Portafolio\obj\Debug\net6.0\refint\Portafolio.dll
